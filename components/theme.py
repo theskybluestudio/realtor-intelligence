@@ -1,0 +1,15 @@
+COLORS = {
+    "bg": "#0b0f1a",
+    "surface": "#111827",
+    "surface_2": "#1a2236",
+    "border": "#1e2d45",
+    "text": "#e2e8f0",
+    "muted": "#64748b",
+    "label": "#94a3b8",
+    "teal": "#2dd4bf",
+    "amber": "#f59e0b",
+    "blue": "#60a5fa",
+    "purple": "#818cf8",
+    "green": "#34d399",
+    "red": "#f87171",
+}

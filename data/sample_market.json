@@ -1,0 +1,261 @@
+{
+  "market": {
+    "title": "Real Estate Intelligence Dashboard",
+    "location": "The Woodlands, TX",
+    "subtitle": "Last 3 Years · Q1 2026 · Montgomery County",
+    "last_updated": "March 20, 2026",
+    "period": "1Q 2026",
+    "condition_label": "Seller's Market",
+    "condition_tone": "green",
+    "meta": [
+      ["Time Range", "Last 3 Years"],
+      ["Scope", "All Metrics"],
+      ["Segments", "All Price Tiers"],
+      ["County", "Montgomery County"]
+    ],
+    "footer": [
+      "REAL ESTATE INTELLIGENCE DASHBOARD v1.2a · The Woodlands, TX · Montgomery County",
+      "Data: ATTOM / CoreLogic / Public Records · Last Refresh: March 20, 2026 · 1Q 2026",
+      "Internal Use Only · RBAC Enabled · Session Auto-Expires on Inactivity"
+    ]
+  },
+  "quarters": ["Q1 '23", "Q2 '23", "Q3 '23", "Q4 '23", "Q1 '24", "Q2 '24", "Q3 '24", "Q4 '24", "Q1 '25", "Q2 '25", "Q3 '25", "Q4 '25", "Q1 '26"],
+  "distribution": [
+    {"label": "<$300K", "pct": 5},
+    {"label": "$300–400K", "pct": 14},
+    {"label": "$400–500K", "pct": 22},
+    {"label": "$500–700K", "pct": 32},
+    {"label": "$700K–1M", "pct": 18},
+    {"label": "$1M–1.5M", "pct": 7},
+    {"label": "$1.5M+", "pct": 4}
+  ],
+  "reports": [
+    {
+      "icon": "📊",
+      "title": "PDF Market Report (FR-32)",
+      "desc": "Export the full dashboard including all KPIs, charts, and price segment breakdowns as a formatted PDF. Includes cover page, KPI summary, and all trend charts.",
+      "button": "Export PDF",
+      "primary": true
+    },
+    {
+      "icon": "📋",
+      "title": "CSV Data Export (FR-33)",
+      "desc": "Download underlying data tables as CSV files. Full-market and each segment exported as separate files for further analysis.",
+      "button": "Export All CSV",
+      "primary": false
+    },
+    {
+      "icon": "📅",
+      "title": "Scheduled Reports (FR-34)",
+      "desc": "Configure automatic report generation and email delivery on a weekly, bi-weekly, or monthly cadence.",
+      "button": "Configure Schedule",
+      "primary": false
+    },
+    {
+      "icon": "🔗",
+      "title": "Shareable Link (FR-35)",
+      "desc": "Generate a read-only shareable link to the current dashboard state, including location, time range, and active price segments.",
+      "button": "Generate Link",
+      "primary": false
+    },
+    {
+      "icon": "🖨",
+      "title": "Print View (FR-36)",
+      "desc": "Render a clean, print-optimized layout with minimal UI chrome for physical or digital distribution.",
+      "button": "Open Print View",
+      "primary": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "full",
+      "label": "Full Market",
+      "range": "All",
+      "median": "$562K",
+      "heat": 78,
+      "condition": "Seller's Market",
+      "low_volume": false,
+      "kpis": {
+        "medPrice": "$562K",
+        "avgPrice": "$641K",
+        "ppsf": "$228",
+        "lsr": "98.7%",
+        "sold3yr": "+28.4%",
+        "dom": "28",
+        "medDom": "18",
+        "dtc": "34",
+        "tts": "62 days",
+        "expiredPct": "9.2%",
+        "active": "847",
+        "supply": "1.8 mo",
+        "newList": "1,241",
+        "absorb": "68%",
+        "cash": "22.4%",
+        "heatScore": 78,
+        "competitive": "34%",
+        "yoy": "▲ 11.2%",
+        "cond": "Seller's Market"
+      },
+      "series": {
+        "median_price": [438,445,452,460,472,488,503,519,528,541,550,558,562],
+        "average_price": [502,511,521,535,549,572,594,608,619,628,635,638,641],
+        "dom_avg": [21,19,22,24,25,23,26,27,26,28,29,28,28],
+        "dom_med": [14,13,15,16,16,15,17,18,17,18,19,18,18],
+        "inventory": [1134,1089,1201,1098,1034,988,1012,924,901,867,882,858,847],
+        "supply": [2.8,2.6,3.0,2.7,2.5,2.4,2.5,2.2,2.1,2.0,2.1,1.9,1.8]
+      }
+    },
+    {
+      "id": "s200",
+      "label": "$200K–$500K",
+      "range": "$200K–$500K",
+      "median": "$374K",
+      "heat": 62,
+      "condition": "Seller's Market",
+      "low_volume": false,
+      "kpis": {
+        "medPrice": "$374K",
+        "avgPrice": "$381K",
+        "ppsf": "$174",
+        "lsr": "97.9%",
+        "sold3yr": "+10.6%",
+        "dom": "32",
+        "medDom": "25",
+        "dtc": "32",
+        "tts": "64 days",
+        "expiredPct": "7.4%",
+        "active": "218",
+        "supply": "1.4 mo",
+        "newList": "424",
+        "absorb": "71%",
+        "cash": "14.2%",
+        "heatScore": 62,
+        "competitive": "21%",
+        "yoy": "▲ 8.4%",
+        "cond": "Seller's Market"
+      },
+      "series": {
+        "median_price": [338,342,348,354,358,362,367,370,371,373,374,374,374],
+        "average_price": [345,349,354,360,364,368,373,376,377,379,380,380,381],
+        "dom_avg": [36,34,35,33,33,32,33,32,32,32,33,32,32],
+        "dom_med": [28,27,27,26,26,26,27,26,26,25,26,25,25],
+        "inventory": [274,264,288,265,250,240,245,224,220,215,219,219,218],
+        "supply": [1.8,1.7,1.9,1.7,1.6,1.5,1.5,1.4,1.4,1.4,1.4,1.4,1.4]
+      }
+    },
+    {
+      "id": "s500",
+      "label": "$500K–$1M",
+      "range": "$500K–$1M",
+      "median": "$685K",
+      "heat": 81,
+      "condition": "Seller's Market",
+      "low_volume": false,
+      "kpis": {
+        "medPrice": "$685K",
+        "avgPrice": "$724K",
+        "ppsf": "$256",
+        "lsr": "99.2%",
+        "sold3yr": "+14.5%",
+        "dom": "24",
+        "medDom": "16",
+        "dtc": "33",
+        "tts": "57 days",
+        "expiredPct": "6.1%",
+        "active": "342",
+        "supply": "1.9 mo",
+        "newList": "502",
+        "absorb": "76%",
+        "cash": "19.8%",
+        "heatScore": 81,
+        "competitive": "41%",
+        "yoy": "▲ 12.1%",
+        "cond": "Seller's Market"
+      },
+      "series": {
+        "median_price": [598,612,625,638,645,658,668,675,678,681,683,684,685],
+        "average_price": [624,639,652,665,673,686,697,706,710,716,720,722,724],
+        "dom_avg": [26,24,25,24,24,24,25,24,24,24,24,24,24],
+        "dom_med": [18,17,18,17,17,16,17,16,16,16,17,16,16],
+        "inventory": [401,388,405,378,366,352,361,345,352,348,344,342,342],
+        "supply": [2.1,2.0,2.1,2.0,1.9,1.9,2.0,1.9,2.0,1.9,1.9,1.9,1.9]
+      }
+    },
+    {
+      "id": "s1m",
+      "label": "$1M–$2M",
+      "range": "$1M–$2M",
+      "median": "$1.28M",
+      "heat": 71,
+      "condition": "Near Balanced",
+      "low_volume": false,
+      "kpis": {
+        "medPrice": "$1.28M",
+        "avgPrice": "$1.35M",
+        "ppsf": "$342",
+        "lsr": "97.1%",
+        "sold3yr": "+18.5%",
+        "dom": "41",
+        "medDom": "31",
+        "dtc": "38",
+        "tts": "79 days",
+        "expiredPct": "12.1%",
+        "active": "241",
+        "supply": "2.8 mo",
+        "newList": "268",
+        "absorb": "54%",
+        "cash": "31.4%",
+        "heatScore": 71,
+        "competitive": "28%",
+        "yoy": "▲ 9.4%",
+        "cond": "Near Balanced"
+      },
+      "series": {
+        "median_price": [1080,1100,1120,1138,1150,1168,1188,1208,1220,1245,1262,1274,1280],
+        "average_price": [1128,1150,1174,1194,1209,1229,1252,1278,1292,1320,1342,1360,1350],
+        "dom_avg": [48,46,44,43,44,43,42,42,41,41,42,41,41],
+        "dom_med": [36,35,34,33,33,33,32,32,31,31,32,31,31],
+        "inventory": [302,288,310,285,278,265,272,260,250,244,248,242,241],
+        "supply": [3.8,3.6,3.9,3.6,3.5,3.3,3.4,3.3,3.1,3.0,3.1,2.9,2.8]
+      }
+    },
+    {
+      "id": "s2m",
+      "label": "$2M+",
+      "range": "$2M+",
+      "median": "$2.91M",
+      "heat": 44,
+      "condition": "Balanced",
+      "low_volume": true,
+      "kpis": {
+        "medPrice": "$2.91M",
+        "avgPrice": "$3.24M",
+        "ppsf": "$521",
+        "lsr": "94.8%",
+        "sold3yr": "+11.1%",
+        "dom": "74",
+        "medDom": "51",
+        "dtc": "47",
+        "tts": "121 days",
+        "expiredPct": "18.4%",
+        "active": "46",
+        "supply": "5.2 mo",
+        "newList": "47",
+        "absorb": "29%",
+        "cash": "58.1%",
+        "heatScore": 44,
+        "competitive": "12%",
+        "yoy": "▲ 6.8%",
+        "cond": "Balanced"
+      },
+      "series": {
+        "median_price": [2620,2650,2700,2740,2775,2800,2830,2855,2875,2893,2900,2908,2910],
+        "average_price": [2890,2930,2980,3020,3055,3090,3120,3155,3174,3200,3215,3232,3240],
+        "dom_avg": [88,85,82,80,79,77,76,76,75,74,75,74,74],
+        "dom_med": [62,60,58,56,55,54,53,53,52,51,52,51,51],
+        "inventory": [157,149,198,170,140,131,134,155,79,60,71,55,46],
+        "supply": [9.2,8.8,11.6,10.0,8.2,7.7,7.9,9.1,4.6,3.5,4.2,3.2,5.2]
+      }
+    }
+  ]
+}
